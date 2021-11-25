@@ -68,7 +68,7 @@ function _createModal({
   modal.insertAdjacentHTML(
     "afterbegin",
     `<div class="modal-overlay" data-close="close">
-      <div class="modal-window" style=width:${width}px>
+      <div class="modal-window" style=max-width:${width}px>
         <div class="modal-header">
           <span class="modal-title">${title}</span>
           <span class="modal-close" data-close="close">${
